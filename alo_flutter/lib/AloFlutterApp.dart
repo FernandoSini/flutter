@@ -18,7 +18,7 @@ class AloFlutterApp extends StatelessWidget {
       home: Scaffold(
         // defina a barra (superior) do app
         appBar: AppBar(
-        title: Text('Alo Flutter'),
+        title: Text('Alo Flutter 3'),
         leading: MenuSuspensoWidget(),
         actions: <Widget>[
           IconButton(icon: Icon(Icons.search))
@@ -30,7 +30,9 @@ class AloFlutterApp extends StatelessWidget {
             height: 100.0,
             width: 100.0,
             alignment: Alignment.center,
-            child: Text('Oi'),
+            child: RichText(text: TextSpan(text: 'Boa', style: TextStyle(color: Colors.red),
+            children: <TextSpan>[TextSpan(text: ' Noite', style: TextStyle(color: Colors.blue))]
+            )),
             decoration: BoxDecoration(
                 color: Colors.lightGreen,
                 border: Border.all(color: Colors.black,width: 4),
@@ -61,6 +63,8 @@ class AloFlutterApp extends StatelessWidget {
           // trata o evento de touch (click)
           onPressed: () {
             print('Botão pressionado!');
+            // fecha a tela atual....
+            Navigator.pop(context);
           }
         ),
         // cria uma barra de botões na parte inferior da interface
