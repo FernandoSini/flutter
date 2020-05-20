@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328176643264",
+    "firebase_url": "https://esensato-teste-flutter.firebaseio.com",
+    "project_id": "esensato-teste-flutter",
+    "storage_bucket": "esensato-teste-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328176643264:android:03de09341823f505575125",
+        "android_client_info": {
+          "package_name": "com.example.aloflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328176643264-ahnftf4bu8ce7a4321qsjl3h2qlddotr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGQ3itltETe5WiSG0LaW6Ky884hJV-nFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328176643264-ahnftf4bu8ce7a4321qsjl3h2qlddotr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
