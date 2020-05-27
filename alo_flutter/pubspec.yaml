@@ -31,6 +31,7 @@ dependencies:
 
   sqflite:
   path:
+
   firebase_auth: ^0.11.1+6
   cloud_firestore: ^0.13.5
   intl: ^0.15.8
